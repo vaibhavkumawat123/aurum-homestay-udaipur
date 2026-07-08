@@ -4,9 +4,17 @@ import { motion, useScroll, useTransform, AnimatePresence } from "framer-motion"
 import useEmblaCarousel from "embla-carousel-react";
 import {
   MapPin, Star, Wifi, Coffee, Wind, Car, Utensils, Users, BedDouble, Ruler,
-  ChevronLeft, ChevronRight, Phone, Mail, Instagram, Facebook, Menu, X, Sparkles,
+  Phone, Mail, Menu, X, Sparkles,
   Calendar as CalendarIcon, ArrowRight, CheckCircle2, Trees, Home, Sun, Moon,
 } from "lucide-react";
+const IgIcon = (p: React.SVGProps<SVGSVGElement>) => (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" {...p}>
+    <rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/>
+  </svg>
+);
+const FbIcon = (p: React.SVGProps<SVGSVGElement>) => (
+  <svg viewBox="0 0 24 24" fill="currentColor" {...p}><path d="M13 22v-8h2.7l.4-3.2H13V8.7c0-.9.3-1.6 1.6-1.6H16V4.2c-.3 0-1.3-.1-2.4-.1-2.4 0-4 1.5-4 4.1v2.6H7v3.2h2.6V22H13z"/></svg>
+);
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
