@@ -607,8 +607,8 @@ function FindUs() {
                 <div className="flex items-center gap-3"><Utensils className="h-4 w-4" /> Breakfast · 7–10:30 am</div>
               </div>
               <div className="mt-6 flex gap-3">
-                <a href="#" className="h-10 w-10 rounded-full bg-primary-foreground/15 flex items-center justify-center"><Instagram className="h-4 w-4" /></a>
-                <a href="#" className="h-10 w-10 rounded-full bg-primary-foreground/15 flex items-center justify-center"><Facebook className="h-4 w-4" /></a>
+                <a href="#" className="h-10 w-10 rounded-full bg-primary-foreground/15 flex items-center justify-center"><IgIcon className="h-4 w-4" /></a>
+                <a href="#" className="h-10 w-10 rounded-full bg-primary-foreground/15 flex items-center justify-center"><FbIcon className="h-4 w-4" /></a>
               </div>
             </motion.div>
           </div>
